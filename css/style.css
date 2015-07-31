@@ -1,0 +1,34 @@
+/* TOP-HEADER */
+.top-header{
+    background-color: #4ecaff;
+}
+.top-header i {
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 10px;
+    font-size: 21px;
+    color: #d3f2ff;
+}
+.top-header p {
+    margin-top: 10px;
+}
+.top-header .fa-envelope {
+    margin-left: -30px;
+}
+.top-header .top-header-i-none i {
+    background-color: #d3f2ff;
+    color: #4ecaff;
+    position: relative;
+    margin-left: auto;
+    margin-top: 4px;
+    padding: 5px;
+
+}
+.top-header-i-none {
+    display: inline-block;  
+    padding-right: 5px;
+}
+.mar {
+    margin-left: auto;
+    margin-right: auto;
+}
