@@ -4,16 +4,17 @@
 }
 .top-header i {
     position: absolute;
-    margin-left: -25px;
-    margin-top: 10px;
     font-size: 21px;
     color: #d3f2ff;
 }
-.top-header p {
+.first-i {
     margin-top: 10px;
 }
-.top-header .fa-envelope {
-    margin-left: -30px;
+.contant {
+    margin-left: 25px;
+}
+.top-header p {
+    margin-top: 10px;
 }
 .top-header .top-header-i-none i {
     background-color: #d3f2ff;
@@ -31,4 +32,25 @@
 .mar {
     margin-left: auto;
     margin-right: auto;
+}
+.mar .col-md-offset-right-1 {
+    min-width: 171px;
+}
+@media(max-width:767px) {
+	.tc {
+        text-align: center;
+    }
+}
+/* MENU */
+
+.menu {
+    border: none;
+    background-color: #44b8e9;
+}
+.menu-brand {
+    padding: 0;
+}
+.menu-brand img {
+    width: 132px;
+    padding-left: 20px;
 }
